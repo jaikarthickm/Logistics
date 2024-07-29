@@ -1,0 +1,54 @@
+.user-profile {
+  max-width: 800px; /* Increased max-width for more space */
+  margin: 50px auto; /* Centered with more top margin */
+  padding: 40px; /* Increased padding for better spacing */
+  background-color: #f9f9f9; /* Slightly darker background for better contrast */
+  border-radius: 15px; /* Increased border-radius for smoother edges */
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15); /* Softer and larger shadow for a more modern feel */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.user-profile:hover {
+  transform: translateY(-5px); /* Adds a slight lift effect on hover */
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2); /* Deepens the shadow on hover */
+}
+
+.user-profile h2 {
+  text-align: center;
+  margin-bottom: 30px; /* Increased margin for better spacing */
+  color: #2C3E50; /* Darker and more professional color */
+  font-size: 30px; /* Slightly larger font size */
+  font-weight: 700; /* Bold font weight */
+  border-bottom: 2px solid #E0E0E0; /* Subtle border color */
+  padding-bottom: 15px; /* Increased padding for better spacing */
+  transition: color 0.3s ease-in-out;
+}
+
+.user-profile h2:hover {
+  color: #1A252F; /* Even darker shade of blue on hover */
+}
+
+.profile-info {
+  text-align: left;
+  line-height: 1.8; /* Better line-height for readability */
+}
+
+.profile-info p {
+  margin: 20px 0; /* Increased margin for better spacing */
+  font-size: 18px; /* Slightly larger font size */
+  color: #4A4A4A; /* Darker text color for better readability */
+  display: flex;
+  align-items: center;
+}
+
+.profile-info p strong {
+  color: #2C3E50; /* Darker color for emphasis */
+  margin-right: 15px; /* Increased margin for better spacing */
+  flex-shrink: 0;
+}
+
+.profile-info p i {
+  margin-right: 15px; /* Increased margin for icons */
+  color: #2C3E50; /* Icon color */
+  font-size: 22px; /* Slightly larger icon size */
+}

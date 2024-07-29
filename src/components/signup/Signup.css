@@ -1,0 +1,117 @@
+/* General form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  #login-box {
+    margin: 5rem auto;
+    font-family: 'Arial', sans-serif;
+    padding: 30px;
+    background: #fff; /* White background */
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2); /* Lightened shadow */
+    border-radius: 10px;
+    width: 350px; /* Slightly reduced width for better alignment */
+  }
+  
+  #loginTitle {
+    margin: 0 0 20px; /* Reduced margin for better spacing */
+    padding: 10px;
+    color: #333; /* Dark color for contrast */
+    text-align: center;
+    font-size: 24px; /* Increased font size */
+  }
+  
+  #user-box {
+    position: relative;
+    margin-bottom: 20px; /* Added margin for spacing between fields */
+  }
+  
+  #user-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #333; /* Dark color for readability */
+    border: 1px solid #ccc; /* Changed to a 1px solid border */
+    border-radius: 5px; /* Added border radius for rounded corners */
+    outline: none;
+    background: transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+  #user-box input:focus {
+    border-color: #1abc9c; /* Updated focus border color */
+  }
+  
+  #errorTitle {
+    color:black;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #error {
+    color: red;
+    font-size: 14px;
+  }
+  
+  #login-box label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333; /* Dark color for readability */
+  }
+  
+  #login-box p {
+    color: #333; /* Dark color for readability */
+    font-size: 14px; /* Adjusted font size */
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  
+  #login-box #user-box label {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    padding: 0;
+    font-size: 16px;
+    color: #333; /* Dark color for readability */
+    pointer-events: none;
+    transition: 0.3s ease;
+  }
+  
+  #login-box #user-box input:focus ~ label,
+  #login-box #user-box input:valid ~ label {
+    top: -18px;
+    left: 0;
+    color: #1abc9c; /* Updated label color on focus */
+    font-size: 14px;
+  }
+  
+  #login-box a {
+    position: relative;
+    display: inline-block;
+    padding: 5px 4px; /* Reduced padding for smaller button */
+    color: #5d1abc; /* Button text color */
+    font-size: 12px; /* Reduced font size */
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 2px solid #5d1abc; /* Border color */
+    background: transparent; /* Transparent background */
+    transition: none; /* Removed transition */
+  }
+  
+  #login-box a:hover {
+    background: transparent; /* Removed hover background color change */
+    box-shadow: none; /* Removed hover shadow effect */
+  }
+  
+  /* Error message styles */
+  .error_message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
